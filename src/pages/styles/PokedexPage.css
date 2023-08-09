@@ -1,0 +1,145 @@
+.poke__wrapper{
+    overflow: hidden;
+}
+
+.poke__header{
+    background-color: #fff;
+    width: 100%;
+    height: 9em;
+    margin-bottom: 1em;
+    position: relative;
+}
+
+.header-red{
+    background-color: black;
+    width: 100%;
+    height: 7em;
+}
+
+.header-black img{
+    position: absolute;
+    bottom: -5px;
+    left: 3em;
+    max-width: 320px;
+}
+
+.header-black{
+    background-color: red;
+    width: 100%;
+    height: 5em;
+    position: relative;
+}
+
+.header-circle{
+    width: 5em;
+    height: 5em;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 8px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.circle{
+    width: 3em;
+    height: 3em;
+    background-color: #212121;
+    border-radius: 50%;
+    border: 8px solid black;
+}
+
+.poke__main{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.poke__text{
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+.poke__label{
+    color: #DD1A1A;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.3em;
+}
+
+.poke__search{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1em;
+    margin-bottom: 3em;
+}
+
+.poke__form{
+    display: flex;
+    max-width: 745px;
+    width: 100%;
+}
+
+.poke__form input{
+    max-width: 750px;
+    width: 100%;
+    box-shadow: 0px 3px 6px 0px #00000026;
+    padding: 1em;
+    padding-left: 2em;
+    border-radius:0.5em 0 0 0.5em;
+    border: 1px solid #e5e5e5;
+}
+
+.poke__form input::placeholder{
+    color: #ccc;
+}
+
+.poke__form button{
+    width: 150px;
+    padding: 1em;
+    box-shadow: 0px 3px 6px 0px #00000026;
+    border-radius: 0 0.5em 0.5em 0;
+    background-color: #D93F3F;
+    color: #fff;
+    font-weight:500;
+    text-transform: capitalize;
+}
+
+@media (max-width: 540px){
+    .poke__search{
+        flex-wrap: wrap;
+    }
+
+    .header-circle{
+        width: 3em;
+        height: 3em;
+    }
+
+    .circle{
+        width: 1.5em;
+        height: 1.5em
+    }
+
+    .header-black{
+        height: 4em;
+    }
+
+    .header-red{
+        height: 5em;
+    }
+
+    .poke__header{
+        height: 6em;
+    }
+
+    .header-black img{
+        left: 1em;
+        width: 180px;
+    }
+}

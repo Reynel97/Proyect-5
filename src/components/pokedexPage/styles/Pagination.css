@@ -1,0 +1,48 @@
+.pagination{
+    display: flex;
+    width: 100%;
+    margin:3em 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.page__list{
+    display: flex;
+    gap: 0.3em;
+    padding: 1em 0;
+}
+
+.page__icon{
+    padding: 0.2em;
+    font-size: 2em;
+    color: #00000073;
+}
+
+.page__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em;
+    border-radius: 50%;
+    padding: 0.2em;
+    background-color: transparent;
+    transition: box-shadow 500ms ease;
+}
+
+.page__btn:hover{
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.4);
+}
+
+.page__item{
+    color: #00000073;
+    font-size: 1em;
+}
+
+.page__current{
+    background-color: #0000000A;
+    padding: 0.7em 0.9em;
+    font-weight: 600;
+    border-radius: 0.3em;
+    color: #00000073;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}

@@ -1,0 +1,444 @@
+.wrapper__pokeinfo{
+    overflow: hidden;
+}
+
+.body__poke{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 8em;
+    box-shadow: 0px 2px 16px 0px #00000026;
+    padding: 0.5em;
+}
+
+/* HEADER INFO */
+.header__poke-body{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.header__return{
+    position: absolute;
+    left: 2px;
+    color: #333;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    top: -3em;
+    font-weight: 600;
+    transition: color 500ms ease;
+    font-size: 1.2em;
+}
+
+.header__return:hover{
+    color: #D13E3E;
+}
+
+.image__poke{
+    height: 185px;
+    aspect-ratio: 4/3;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.image__poke img{
+    max-width: 320px;
+    max-height: 315px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0.1em;
+}
+
+.navigate__id{
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.id__poke{
+    border: 1px solid #D3D3D3;
+    text-align: center;
+    font-size: 2em;
+    display: inline-block;
+    box-shadow: 0px 2px 16px 0px #00000026;
+    padding: 0.1em 0.2em;
+}
+
+.poke__icon{
+    font-size: 3em;
+}
+
+.poke__btn{
+    margin: 0 1em;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 0.8em;
+    transition: box-shadow 0.5s ease;
+}
+
+.poke__btn:hover{
+    box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.3);
+}
+
+.contain__info{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* SECCION DE DESCRIPTION */
+
+.section__description{
+    border-top: 1px solid #adabab;
+    position: relative;
+}
+
+.title__poke{
+    text-transform: capitalize;
+    padding: 0 0.5em;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: -0.7em;
+    transform: translateX(-50%);
+    background-color: #fff;
+}
+
+.list__poke{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+}
+
+.item__poke{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.label__poke{
+    text-transform: capitalize;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.text__poke{
+    margin-top: 0.3em;
+    font-size: 1.5em;
+    padding: 0 0.5em;
+}
+
+.info__poke{
+    margin-top: 3em;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.type__info, .abilities__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    gap: 2em;
+}
+
+.title__info{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.list__info{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    
+}
+
+.item__info{
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 0.3em;
+    box-shadow: 0px 2px 16px 0px #00000026;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.item__info span{
+    color: #fff;
+}
+
+/* SECCION DE STATS */
+
+.info__stats{
+    border-top:1px solid #adabab;
+    margin-top: 6em;
+    position: relative;
+    padding: 2em 0;
+}
+
+.title__stats, .move__title{
+    position: absolute;
+    left: 0;
+    top: -0.7em;
+    background-color: #fff;
+    font-size: 2em;
+    padding-right: 0.5em ;
+}
+
+.list__stats{
+    margin-top: 3em;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.item__stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.label__stats{
+    text-transform: capitalize;
+}
+
+.bar__stats{
+    width: 100%;
+    height: 2em;
+    border-radius: 2em;
+    background-color: #f6f6f6;
+}
+
+.progress__stats{
+    width: 100%;
+    height: 100%;
+    border-radius: 2em;
+}
+
+/* SECCION DE MOVEMENTS */
+
+.move__section{
+    border-top: 1px solid #adabab;
+    margin-top: 5em;
+    position: relative;
+}
+
+.move__list{
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding-bottom: 2em;
+}
+
+.move__item{
+    background-color: #e5e5e5;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+/* Breakpoints */
+
+@media (max-width: 760px){
+    .list__info{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width: 420px){
+    .info__poke{
+        flex-wrap: wrap;
+    }
+
+    .title__info{
+        font-size: 1.5em;
+    }
+
+    .title__poke{
+        font-size: 1.5em;
+    }
+
+    .title__stats{
+        font-size: 1.5em;
+    }
+
+    .item__stats{
+        font-size: 1em;
+    }
+
+}
+
+
+
+
+/* BACKGROUND GRADIENT - CLASS */
+
+.fire-gradient{
+    background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+
+.grass-gradient{
+    background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+}
+
+.water-gradient{
+    background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+}
+
+.bug-gradient{
+    background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}
+
+.normal-gradient{
+    background: linear-gradient(181.51deg, #735259 -6.44%, #BC6B7C 121.95%, #7C3F4C 186.11%);
+}
+
+.poison-gradient{
+    background: linear-gradient(177.03deg, #5B3184 -11.97%, #A564E3 71.28%, #CE9BFF 135.64%);
+
+}
+
+.electric-gradient{
+    background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+
+}
+
+.ground-gradient{
+    background: linear-gradient(179.75deg, #654008 -19.96%, #895C1A 43.67%, #D69638 138.4%);
+}
+
+.fighting-gradient{
+    background: linear-gradient(176.83deg, #96402A -8.78%, #F1613C 169.09%, #CB735D 242.33%);
+}
+
+.rock-gradient{
+    background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+}
+
+.ghost-gradient{
+    background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+}
+
+.dragon-gradient{
+    background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+}
+
+.ice-gradient{
+    background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+}
+
+.psychic-gradient{
+    background: linear-gradient(179.75deg, #E62D2D -19.96%, #D13E3E 43.67%, #F07F7F 138.4%);
+}
+
+.fairy-gradient{
+    background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+}
+
+.steel-gradient{
+    background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+}
+
+.dark-gradient{
+    background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+}
+
+.flying-gradient{
+    background: linear-gradient(177.03deg, #555454 -11.97%, #737379 57.49%, #acacac 135.64%);
+}
+
+/* COLOR - CLASS*/
+
+.fire-color{
+    color: #E75C35;
+}
+
+.grass-color{
+    color: #416460;
+}
+
+.water-color{
+    color: #1479FB;
+}
+
+.bug-color{
+    color: #3BB039;
+}
+
+.normal-color{
+    color: #BC6B7C;
+}
+
+.poison-color{
+    color: #5B3184;
+}
+
+.electric-color{
+    color: #0C1395;
+}
+
+.ground-color{
+    color: #654008;
+}
+
+.fighting-color{
+    color: #96402A;
+}
+
+.rock-color{
+    color: #7E7E7E;
+}
+
+.ghost-color{
+    color: #323569;
+}
+
+.dragon-color{
+ color: #478A93;
+}
+
+.ice-color{
+    color: #6FBEDF;
+}
+
+.psychic-color{
+    color: #E52D2D;
+}
+
+.fairy-color{
+    color: #971B45;
+}
+
+.steel-color{
+    color: #5E736C;
+}
+
+.dark-color{
+    color:#030706 ;
+}
+
+.flying-color{
+    color: #555454;
+}

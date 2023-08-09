@@ -1,0 +1,28 @@
+.poke__select{
+    max-width: 700px;
+    width: 100%;
+    border: none;
+    box-shadow: 0px 3px 6px 0px #00000026;
+    padding: 1em;
+    padding-left: 1em;
+    appearance: none;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    color: #999;
+}
+
+.poke__select:focus{
+    outline: none;
+}
+
+.poke__select::-webkit-scrollbar {
+    width: 8px;
+  }
+
+
+
+    
+
+
+
