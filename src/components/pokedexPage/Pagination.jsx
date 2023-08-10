@@ -21,7 +21,7 @@ const Pagination = ({ quantyPage, currentPage, setCurrentPage }) => {
       </button>
       <ul className="page__list">
         <li className="page__item">
-          <span className="page__current">{currentPage}</span> de{" "}
+          <span className="page__current">{currentPage}</span> Of{" "}
           <span className="page__quanty">{quantyPage}</span>
         </li>
       </ul>

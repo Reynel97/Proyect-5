@@ -62,14 +62,14 @@
 .poke__text{
     width: 100%;
     margin-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .poke__label{
     color: #DD1A1A;
     font-weight: 700;
     text-transform: capitalize;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .poke__search{
